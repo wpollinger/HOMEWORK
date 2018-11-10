@@ -1,0 +1,183 @@
+Sub Button2_Click()
+Range("J2:J32000").Clear
+Range("k2:K32000").Clear
+End Sub
+
+Sub sheet1()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+
+Sub sheet2()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+
+
+Sub sheet3()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+
+Sub sheet4()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+
+Sub sheet5()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+
+Sub sheet6()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+Sub sheet7()
+
+Dim total As Double
+    Dim summaryrow As Integer
+    Dim lastrow As Long
+    
+    summaryrow = 2
+    lastrow = ActiveSheet.UsedRange.Rows.Count
+    
+    
+    For Row_ = 2 To lastrow
+        If Cells(Row_ + 1, 1) <> Cells(Row_ + 1 - 1, 1) Then
+            Cells(summaryrow, "j") = Cells(Row_ - 1, 1).Value
+            Cells(summaryrow, "K") = total
+            total = 0
+            summaryrow = summaryrow + 1
+            total = total + Cells(Row_, "G").Value
+        Else
+         total = total + Cells(Row_, "G").Value
+        End If
+    Next Row_
+End Sub
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+=MID(B2,1,SEARCH("&",B2,1)-1)
+=MID(B2,SEARCH("/",B2,1)+1,LEN(B2))
